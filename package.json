@@ -1,0 +1,15 @@
+{
+  "name": "fast-components",
+  "version": "1.0.0",
+  "description": " Готовые компоненты для сайта",
+  "homepage": "https://github.com/enotstitch/fast-components#readme",
+  "bugs": {
+    "url": "https://github.com/enotstitch/fast-components/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enotstitch/fast-components.git"
+  },
+  "license": "MIT",
+  "author": "InfoCoder"
+}
