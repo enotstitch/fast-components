@@ -32,6 +32,7 @@ class Spollers {
 	openSpoller(spoller) {
 		const spollerContent = spoller.querySelector('.spoller__content');
 
+		spoller.classList.add('open');
 		spoller.setAttribute('open', '');
 		spollerContent.style.maxHeight = '0';
 		requestAnimationFrame(() => {

@@ -51,6 +51,7 @@
 			width: 2px;
 			height: 100%;
 			transform: translateX(50%);
+			transition: transform 0.3s;
 		}
 	}
 
@@ -63,5 +64,9 @@
 	&__text {
 		margin: 0;
 		padding: 10px 15px;
+	}
+
+	&.open &__icon::after {
+		transform: translateX(50%) rotate(90deg);
 	}
 }

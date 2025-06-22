@@ -49,6 +49,7 @@
 .spoller__icon:after {
   width: 2px;
   height: 100%;
+  transition: transform .3s;
   top: 0;
   right: 50%;
   transform: translateX(50%);
@@ -63,5 +64,9 @@
 .spoller__text {
   margin: 0;
   padding: 10px 15px;
+}
+
+.spoller.open .spoller__icon:after {
+  transform: translateX(50%)rotate(90deg);
 }
 /*# sourceMappingURL=components.a875ff7f.css.map */
