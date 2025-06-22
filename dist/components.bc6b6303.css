@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #222;
+  background-color: #fefefe;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.site-container {
+  flex-direction: column;
+  min-height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.main {
+  flex: auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.link-reset {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  padding: 0;
+}
+
+.input-reset {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: #0000;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.error {
+  border: 2px solid #f06464;
+}
+/*# sourceMappingURL=components.bc6b6303.css.map */
